@@ -1,21 +1,15 @@
 
-# Socket.IO Chat
+# Troper 0.0.1
 
-A simple chat demo for socket.io
+There are no features
 
 ## How to use
 
-```
-$ cd socket.io
-$ npm install
-$ cd examples/chat
-$ npm install
-$ node .
-```
+you dont use it
 
-And point your browser to `http://localhost:3000`. Optionally, specify
-a port by supplying the `PORT` env variable.
 
+
+chinese
 ## Features
 
 - Multiple users can join a chat room by each entering a unique username

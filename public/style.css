@@ -115,6 +115,9 @@ ul {
 
 /* Messages */
 
+/** ==============================================
+  *TODO: CHANGE CHAT BACKGROUND FOR DARK THEMED UI
+**/
 .chatArea {
   height: 100%;
   padding-bottom: 60px;

@@ -1,11 +1,11 @@
 {
-  "name": "socket.io-chat",
-  "version": "0.0.0",
-  "description": "A simple chat client using socket.io",
+  "name": "Troper",
+  "version": "0.0.1",
+  "description": "socket.io based anonymous webchat client",
   "main": "index.js",
-  "author": "Grant Timmerman",
+  "author": "bretth18",
   "private": true,
-  "license": "BSD",
+  "license": "MIT",
   "dependencies": {
     "express": "3.4.8"
   }
