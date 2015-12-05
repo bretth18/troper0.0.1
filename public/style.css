@@ -145,7 +145,7 @@ ul {
 /* Input */
 
 .inputMessage {
-  border: 10px solid #000;
+  border: 10px solid gray;
   bottom: 0;
   height: 60px;
   left: 0;
