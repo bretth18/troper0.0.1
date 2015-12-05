@@ -5,11 +5,13 @@ There are no features
 
 ## How to use
 
-you dont use it
+you don't use it
+
+pulic testing is being conducted on a webserver,
+try out the latest version here: http://troper.tk:3000/
 
 
 
-chinese
 ## Features
 
 - Multiple users can join a chat room by each entering a unique username
