@@ -107,7 +107,7 @@ ul {
 }
 
 .log {
-  color: gray;
+  color: white;
   font-size: 70%;
   margin: 5px;
   text-align: center;
@@ -121,7 +121,7 @@ ul {
 .chatArea {
   height: 100%;
   padding-bottom: 60px;
-  background-color: green;
+  background-color: #212121;
 }
 
 .messages {
@@ -132,7 +132,7 @@ ul {
 }
 
 .message.typing .messageBody {
-  color: gray;
+  color: white;
 }
 
 .username {
