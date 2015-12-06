@@ -23,6 +23,7 @@ the chatroom.
 ## Mobile
 - Coming Soon!
 - Troper will be running on the ionic framework for mobile platforms
+
 ## Desktop
 - Coming Soon!
 
