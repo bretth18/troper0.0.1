@@ -19,3 +19,10 @@ on website load.
 - Users can type chat messages to the chat room.
 - A notification is sent to all users when a user joins or leaves
 the chatroom.
+
+## Mobile
+- Coming Soon!
+- Troper will be running on the ionic framework for mobile platforms
+## Desktop
+- Coming Soon!
+
