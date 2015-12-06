@@ -90,6 +90,12 @@ ul {
   font-weight: 100;
 }
 
+.subtitle {
+  color: white;
+  font-weight: 100;
+  text-indent: 5%;
+}
+
 /* Chat page */
 
 .chat.page {
