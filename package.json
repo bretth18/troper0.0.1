@@ -1,12 +1,14 @@
 {
-  "name": "Troper",
-  "version": "0.0.1",
-  "description": "socket.io based anonymous webchat client",
-  "main": "index.js",
-  "author": "bretth18",
-  "private": true,
-  "license": "MIT",
-  "dependencies": {
-    "express": "3.4.8"
-  }
+	"name": "Troper",
+	"version": "0.0.1",
+	"description": "socket.io based anonymous webchat client",
+	"license": "MIT",
+	"author": "bretth18",
+	"main": "index.js",
+	"dependencies": {
+		"express": "3.4.8",
+		"socket-io": "1.3.7"
+	},
+	"private": true,
+	"readme": "README.md"
 }
