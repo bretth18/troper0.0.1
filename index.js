@@ -1,12 +1,31 @@
+//index.js
+//brett henderson 2015
+
+//TODO: Implement HTTPS based express server
+
 // Setup basic express server
+
 var express = require('express');
 var app = express();
-var server = require('http').createServer(app);
+var fs = require('fs');
+var https = require('https');
+var options = {
+  key: fs.readFileSync(__dirname + '/test/key.pem'),
+  cert: fs.readFileSync(__dirname + '/test/cert.pem')
+};
+var server = require('https').createServer(options, app);
 var io = require('socket.io')(server);
 var port = process.env.PORT || 3000;
 
 server.listen(port, function () {
   console.log('Server listening at port %d', port);
+  console.log('Ride Wit Me Thru The Journey of More Success');
+  for (i = 0; i < 1; i++) {
+    console.log('Another One');
+  }
+  if (console.log('Another One') == true){
+    console.log('Another One')
+  }
 });
 
 // Routing
