@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/bretth18/troper0.0.1.svg)](https://travis-ci.org/bretth18/troper0.0.1)
 # Troper 0.0.1
 
 There are no features
