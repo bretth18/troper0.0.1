@@ -7,7 +7,7 @@ There are no features
 
 you don't use it
 
-pulic testing is being conducted on a webserver,
+public testing is being conducted on a webserver,
 try out the latest version here: https://troper.tk:3000/
 
 
@@ -26,4 +26,3 @@ the chatroom.
 
 ## Desktop
 - Coming Soon!
-

@@ -19,6 +19,7 @@ var port = process.env.PORT || 3000;
 
 server.listen(port, function () {
   console.log('Server listening at port %d', port);
+  //DJ KHALED, WE THE BEST.
   console.log('Ride Wit Me Thru The Journey of More Success');
   for (i = 0; i < 1; i++) {
     console.log('Another One');
@@ -50,6 +51,7 @@ io.on('connection', function (socket) {
   // when the client emits 'add user', this listens and executes
   socket.on('add user', function (username) {
     if (addedUser) return;
+    console.log('user added to socket')
 
     // we store the username in the socket session for this client
     socket.username = username;
@@ -63,6 +65,7 @@ io.on('connection', function (socket) {
       username: socket.username,
       numUsers: numUsers
     });
+    console.log('user-joined: ' + socket.username )
   });
 
   // when the client emits 'typing', we broadcast it to others
@@ -89,6 +92,7 @@ io.on('connection', function (socket) {
         username: socket.username,
         numUsers: numUsers
       });
+      console.log('user-left: ' + socket.username )
     }
   });
 });
