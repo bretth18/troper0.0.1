@@ -1,7 +1,7 @@
 //index.js
 //brett henderson 2015
 
-//TODO: Implement HTTPS based express server
+//TODO: SETUP MULTIPLE SERVERS ON MULTIPLE PORTS ON CONNECT ROOM CHOICE OFFERED.
 
 // Setup basic express server
 
@@ -92,6 +92,7 @@ io.on('connection', function (socket) {
         username: socket.username,
         numUsers: numUsers
       });
+      console.log('user has left socket')
       console.log('user-left: ' + socket.username )
     }
   });

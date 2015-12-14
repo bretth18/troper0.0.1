@@ -89,6 +89,9 @@ ul {
   color: #fff;
   font-weight: 100;
 }
+.title {
+  text-indent: 1%;
+}
 
 .subtitle {
   color: white;
