@@ -5,10 +5,11 @@ Extremely lightweight and fast socket based encrypted webchat client.
 
 ## How to use
 
-Enter an alias, connect to the socket, share the link to others to connect to the same socket. 
+Enter an alias, connect to the socket, share the link to others to connect to the same socket.
 
 public testing is being conducted on a webserver,
 try out the latest version here: https://troper.tk:3000/
+SSL Cert will throw an error, this is because it is not signed by a third party.
 
 
 
