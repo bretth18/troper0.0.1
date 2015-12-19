@@ -15,7 +15,8 @@ var options = {
 };
 var server = require('https').createServer(options, app);
 var io = require('socket.io')(server);
-var port = process.env.PORT || 3000;
+//var socket = io.listen(8000, "1.2.3.4");
+var port = process.env.PORT || 8000;
 
 server.listen(port, function () {
   console.log('Server listening at port %d', port);
@@ -38,6 +39,12 @@ var numUsers = 0;
 
 io.on('connection', function (socket) {
   var addedUser = false;
+
+  // creating an individual socket namespace
+//  var nsp = io.of('/admin');
+//  nsp.on('connection', function(socket){
+//    console.log('connected to admin'):
+//  });
 
   // when the client emits 'new message', this listens and executes
   socket.on('new message', function (data) {

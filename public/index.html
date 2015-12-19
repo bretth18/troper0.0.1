@@ -1,10 +1,16 @@
 <!doctype html>
+<!-- TODO: IMPLEMENT BOOTSTRAP FOR MOBILE LAYOUTS -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Troper</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://127.0.0.1/public/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://127.0.0.1/public/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
 </head>
+<div class="container-fluid">
 <body>
   <ul class="pages">
     <li class="chat page">
@@ -12,6 +18,7 @@
         <ul class="messages"></ul>
       </div>
       <input class="inputMessage" placeholder="Type here..."/>
+      <!--<input type="button" name="sendButton" id="sendButton" value="sendButton" onClick="sendButton(event)" class="btn btn-info btn-lg"> -->
     </li>
     <li class="login page">
       <h3 class="title">Welcome to Troper</h3>
@@ -27,4 +34,5 @@
   <script src="/socket.io/socket.io.js"></script>
   <script src="/main.js"></script>
 </body>
+</div>
 </html>

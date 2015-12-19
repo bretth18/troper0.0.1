@@ -224,7 +224,11 @@ $(function() {
   });
 
   // Socket events
-
+  //admin socket
+  // if (data.username == 'bretth18'){
+  //   var socket = io('/admin');
+  // }
+  
   // Whenever the server emits 'login', log the login message
   socket.on('login', function (data) {
     connected = true;
