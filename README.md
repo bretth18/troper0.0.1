@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/bretth18/troper0.0.1.svg)](https://travis-ci.org/bretth18/troper0.0.1)
+[![ghit.me](https://ghit.me/badge.svg?repo=bretth18/troper0.0.1)](https://ghit.me/repo/bretth18/troper0.0.1)
 # Troper 0.0.1
 
 Extremely lightweight and fast socket based encrypted webchat client.
